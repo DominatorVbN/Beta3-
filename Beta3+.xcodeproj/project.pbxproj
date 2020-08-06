@@ -14,6 +14,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8363B2C324DC587400444B4C /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		83C03E7424DBE0960013C492 /* Beta3+.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Beta3+.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		83C03E7724DBE0960013C492 /* Beta3_App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Beta3_App.swift; sourceTree = "<group>"; };
 		83C03E7924DBE0960013C492 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -36,6 +37,7 @@
 		83C03E6B24DBE0960013C492 = {
 			isa = PBXGroup;
 			children = (
+				8363B2C324DC587400444B4C /* README.md */,
 				83C03E7624DBE0960013C492 /* Beta3+ */,
 				83C03E7524DBE0960013C492 /* Products */,
 			);
