@@ -128,6 +128,7 @@ struct ContentView: View {
                     }
                     ToolbarItem {
                         Button(action: {
+                            // we can animate the scroll too
                             withAnimation {
                                 reader.scrollTo(0, anchor: .top) // Scrolling to perticular assigned id while aligning it to top
                             }
@@ -148,6 +149,7 @@ struct ContentView: View {
                 })
             }
         }
+        .navigationViewStyle(StackNavigationViewStyle())
     }
 }
 
